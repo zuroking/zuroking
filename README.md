@@ -49,7 +49,7 @@ I’m extending the portfolio beyond ML foundations into systems programming, ne
 | ✅ | `autograd-engine` | Reverse-mode autodiff and neural-network primitives | Complete |
 | ✅ | `markov-chatbot-cli` | Classical NLP with Markov chains and n-grams | Complete |
 | ✅ | `vector-db-from-scratch` | Approximate nearest-neighbour search with HNSW | Complete |
-| 1 | `secure-secrets-vault` | Encrypted local secrets CLI with a master password and KDF | 1 week |
+| ✅ | `secure-secrets-vault` | Encrypted local secrets CLI with a master password and KDF | Complete |
 | 2 | `http-server-from-scratch` | HTTP server on raw sockets: parsing, routing, keep-alive, basic TLS | 2 weeks |
 | 3 | `compression-codec` | Huffman + LZ77 codec, benchmarked against gzip/zstd | 1 week |
 | 4 | `terminal-multiplexer` | tmux-like terminal multiplexer with sessions and splits | 2 weeks |
