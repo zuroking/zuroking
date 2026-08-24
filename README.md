@@ -46,10 +46,10 @@ I’m extending the portfolio beyond ML foundations into systems programming, ne
 
 | Priority | Project | Focus | Estimated time |
 |---:|---|---|---|
-| ✅ | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode autodiff and neural-network primitives | Complete |
-| ✅ | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Classical NLP with Markov chains and n-grams | Complete |
-| ✅ | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Approximate nearest-neighbour search with HNSW | Complete |
-| ✅ | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with a master password and KDF | Complete |
+| ✅ | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode autodiff and neural-network primitives | Complete · Published |
+| ✅ | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Classical NLP with Markov chains and n-grams | Complete · Published |
+| ✅ | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Approximate nearest-neighbour search with HNSW | Complete · Published |
+| ✅ | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with a master password and KDF | Complete · Published |
 | ✅ | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP server on raw sockets: parsing, routing, keep-alive, basic TLS | Complete · Published |
 | 3 | `compression-codec` | Huffman + LZ77 codec, benchmarked against gzip/zstd | 1 week |
 | 4 | `terminal-multiplexer` | tmux-like terminal multiplexer with sessions and splits | 2 weeks |
