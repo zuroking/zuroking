@@ -31,10 +31,10 @@ I'm a **15-year-old developer** working toward becoming an AI Engineer and seeki
 
 | Project | Description |
 |---|---|
-| [**ZURO_AI**](https://github.com/zuroking/ZURO_AI) | GPT-style decoder-only language model (~15.3M parameters) built from scratch to understand transformer internals — CPU-only, pure PyTorch |
+| [**kronos-synapse-dialogue**](https://github.com/zuroking/ZURO_AI) | GPT-style decoder-only language model (~15.3M parameters) built from scratch to understand transformer internals — CPU-only, pure PyTorch |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Custom HNSW vector database in pure NumPy — no FAISS or hnswlib |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode automatic differentiation engine in pure NumPy — no PyTorch or TensorFlow |
-| [**GD_RL_Agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent that plays Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent that plays Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Markov chain / n-gram chatbot CLI |
 
 > Every project starts with an architecture specification and includes module-level review and real test output — never fabricated results.
