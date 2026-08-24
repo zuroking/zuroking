@@ -51,11 +51,11 @@ I’m extending the portfolio beyond ML foundations into systems programming, ne
 | ✅ | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Approximate nearest-neighbour search with HNSW | Complete · Published |
 | ✅ | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with a master password and KDF | Complete · Published |
 | ✅ | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP server on raw sockets: parsing, routing, keep-alive, basic TLS | Complete · Published |
-| 3 | `compression-codec` | Huffman + LZ77 codec, benchmarked against gzip/zstd | 1 week |
-| 4 | `terminal-multiplexer` | tmux-like terminal multiplexer with sessions and splits | 2 weeks |
-| 5 | `os-scheduler-sim` | Round Robin, priority, and MLFQ scheduling with Gantt visualization | 1–2 weeks |
-| 6 | `sql-engine-toy` | SQL parser, B-tree index, and a simple query planner | 3 weeks |
-| 7 | `p2p-file-sync` | Encrypted peer-to-peer file sync with chunk diffs and conflict resolution | 3 weeks |
+| 1 | `compression-codec` | Huffman + LZ77 codec, benchmarked against gzip/zstd | 1 week |
+| 2 | `terminal-multiplexer` | tmux-like terminal multiplexer with sessions and splits | 2 weeks |
+| 3 | `os-scheduler-sim` | Round Robin, priority, and MLFQ scheduling with Gantt visualization | 1–2 weeks |
+| 4 | `sql-engine-toy` | SQL parser, B-tree index, and a simple query planner | 3 weeks |
+| 5 | `p2p-file-sync` | Encrypted peer-to-peer file sync with chunk diffs and conflict resolution | 3 weeks |
 
 ### ⚙️ Engineering principles
 
