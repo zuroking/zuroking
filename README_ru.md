@@ -76,6 +76,7 @@ zuro = {
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Собственная векторная БД с HNSW на чистом NumPy, без FAISS и hnswlib | Приближённый поиск ближайших соседей |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Движок автоматического дифференцирования в обратном режиме на чистом NumPy | Основы ML |
 | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Зашифрованный локальный CLI-менеджер секретов с мастер-паролем и KDF | Прикладная безопасность |
+| [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL-парсер, B-дерево и простой планировщик запросов — закрыт по протоколу | Внутреннее устройство баз данных |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP-сервер на raw sockets: парсинг, роутинг, keep-alive и базовый TLS | Сети |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Кодек Huffman + LZ77 с бенчмарками против gzip/zstd | Алгоритмы |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-агент, играющий в Geometry Dash через захват экрана и виртуальный ввод | Обучение с подкреплением |
@@ -103,7 +104,6 @@ flowchart LR
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | Создать мультиплексор наподобие tmux с сессиями и разделением экрана |
 | 🔜 | `os-scheduler-sim` | Смоделировать Round Robin, приоритетное планирование и MLFQ с диаграммами Ганта |
-| 🔜 | `sql-engine-toy` | Реализовать SQL-парсер, B-дерево и простой планировщик запросов |
 | 🔜 | `p2p-file-sync` | Создать зашифрованную P2P-синхронизацию файлов с чанками и разрешением конфликтов |
 
 ## ⚙️ Инженерные принципы
