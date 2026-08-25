@@ -71,6 +71,7 @@ I use AI as a learning and building partner — never as a substitute for unders
 
 | Project | What I built | Core focus |
 |---|---|---|
+| [**basicthon**](https://github.com/zuroking/basicthon) | **My largest project so far:** a bilingual learning repository of 20 isolated Python projects, progressing from a CLI calculator to a CLI + SQLite + REST API capstone; 655 passing tests and explicit security notes for educational-only implementations | Python learning architecture |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-style decoder-only language model (~15.3M parameters), CPU-only and written in pure PyTorch | Transformer internals |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Custom HNSW vector database in pure NumPy, without FAISS or hnswlib | Approximate nearest-neighbour search |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode automatic differentiation engine in pure NumPy | ML foundations |
