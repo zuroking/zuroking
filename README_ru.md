@@ -71,6 +71,7 @@ zuro = {
 
 | Проект | Что я создал | Ключевой фокус |
 |---|---|---|
+| [**basicthon**](https://github.com/zuroking/basicthon) | **Мой самый большой проект на данный момент:** двуязычный учебный репозиторий из 20 изолированных Python-проектов — от CLI-калькулятора до итогового проекта с CLI, SQLite и REST API; 655 проходящих тестов и явные предупреждения для учебных, не-production реализаций | Архитектура обучения Python |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-подобная декодерная языковая модель (~15,3 млн параметров) на чистом PyTorch, только CPU | Устройство трансформеров |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Собственная векторная БД с HNSW на чистом NumPy, без FAISS и hnswlib | Приближённый поиск ближайших соседей |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Движок автоматического дифференцирования в обратном режиме на чистом NumPy | Основы ML |
