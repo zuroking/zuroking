@@ -31,10 +31,10 @@
 
 | Проект | Описание |
 |---|---|
-| [**ZURO_AI**](https://github.com/zuroking/ZURO_AI) | GPT-подобная декодерная языковая модель (~15,3 млн параметров), созданная с нуля для понимания устройства трансформеров — только CPU, чистый PyTorch |
+| [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-подобная декодерная языковая модель (~15,3 млн параметров), созданная с нуля для понимания устройства трансформеров — только CPU, чистый PyTorch |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Собственная векторная база данных с HNSW на чистом NumPy — без FAISS и hnswlib |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Движок автоматического дифференцирования в обратном режиме на чистом NumPy — без PyTorch и TensorFlow |
-| [**GD_RL_Agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-агент, играющий в Geometry Dash через захват экрана и виртуальный ввод, с собственной средой — только CPU |
+| [**geometry-dash-RL-agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-агент, играющий в Geometry Dash через захват экрана и виртуальный ввод, с собственной средой — только CPU |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | CLI-чат-бот на цепях Маркова и n-граммах |
 
 > Каждый проект начинается с архитектурной спецификации и включает ревью модулей и реальные результаты тестов — никаких вымышленных результатов.
@@ -50,11 +50,11 @@
 | ✅ | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Приближённый поиск ближайших соседей с HNSW | Завершён · Опубликован |
 | ✅ | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Зашифрованный локальный CLI-менеджер секретов с мастер-паролем и KDF | Завершён · Опубликован |
 | ✅ | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP-сервер на raw sockets: парсинг, роутинг, keep-alive, базовый TLS | Завершён · Опубликован |
-| 1 | `compression-codec` | Кодек Huffman + LZ77 с бенчмарками против gzip/zstd | 1 неделя |
-| 2 | `terminal-multiplexer` | Мультиплексор терминала наподобие tmux: сессии и разделение экрана | 2 недели |
-| 3 | `os-scheduler-sim` | Round Robin, приоритетное и MLFQ-планирование с визуализацией диаграммы Ганта | 1–2 недели |
-| 4 | `sql-engine-toy` | SQL-парсер, B-дерево и простой планировщик запросов | 3 недели |
-| 5 | `p2p-file-sync` | Зашифрованная P2P-синхронизация файлов с чанками и разрешением конфликтов | 3 недели |
+| ✅ | [**compression-codec**](https://github.com/zuroking/compression-codec) | Кодек Huffman + LZ77 с бенчмарками против gzip/zstd | Завершён · Опубликован |
+| 1 | `terminal-multiplexer` | Мультиплексор терминала наподобие tmux: сессии и разделение экрана | 2 недели |
+| 2 | `os-scheduler-sim` | Round Robin, приоритетное и MLFQ-планирование с визуализацией диаграммы Ганта | 1–2 недели |
+| 3 | `sql-engine-toy` | SQL-парсер, B-дерево и простой планировщик запросов | 3 недели |
+| 4 | `p2p-file-sync` | Зашифрованная P2P-синхронизация файлов с чанками и разрешением конфликтов | 3 недели |
 
 ### ⚙️ Инженерные принципы
 
