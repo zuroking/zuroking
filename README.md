@@ -76,6 +76,7 @@ I use AI as a learning and building partner — never as a substitute for unders
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Custom HNSW vector database in pure NumPy, without FAISS or hnswlib | Approximate nearest-neighbour search |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode automatic differentiation engine in pure NumPy | ML foundations |
 | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with a master password and KDF | Applied security |
+| [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL parser, B-tree index, and simple query planner — closed by protocol | Database internals |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP server on raw sockets with parsing, routing, keep-alive, and basic TLS | Networking |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 codec, benchmarked against gzip/zstd | Algorithms |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent that plays Geometry Dash using screen capture and virtual input | Reinforcement learning |
@@ -103,7 +104,6 @@ flowchart LR
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | Build a tmux-like multiplexer with sessions and splits |
 | 🔜 | `os-scheduler-sim` | Simulate Round Robin, priority scheduling, and MLFQ with Gantt charts |
-| 🔜 | `sql-engine-toy` | Implement a SQL parser, B-tree index, and simple query planner |
 | 🔜 | `p2p-file-sync` | Create encrypted peer-to-peer file sync with chunk diffs and conflict resolution |
 
 ## ⚙️ Engineering principles
