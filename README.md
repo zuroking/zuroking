@@ -31,10 +31,10 @@ I'm a **15-year-old developer** working toward becoming an AI Engineer and seeki
 
 | Project | Description |
 |---|---|
-| [**ZURO_AI**](https://github.com/zuroking/ZURO_AI) | GPT-style decoder-only language model (~15.3M parameters) built from scratch to understand transformer internals — CPU-only, pure PyTorch |
+| [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-style decoder-only language model (~15.3M parameters) built from scratch to understand transformer internals — CPU-only, pure PyTorch |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Custom HNSW vector database in pure NumPy — no FAISS or hnswlib |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode automatic differentiation engine in pure NumPy — no PyTorch or TensorFlow |
-| [**GD_RL_Agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent that plays Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent that plays Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Markov chain / n-gram chatbot CLI |
 
 > Every project starts with an architecture specification and includes module-level review and real test output — never fabricated results.
@@ -51,10 +51,10 @@ I’m extending the portfolio beyond ML foundations into systems programming, ne
 | ✅ | [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with a master password and KDF | Complete · Published |
 | ✅ | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP server on raw sockets: parsing, routing, keep-alive, basic TLS | Complete · Published |
 | ✅ | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 codec, benchmarked against gzip/zstd | Complete · Published |
-| 2 | `terminal-multiplexer` | tmux-like terminal multiplexer with sessions and splits | 2 weeks |
-| 3 | `os-scheduler-sim` | Round Robin, priority, and MLFQ scheduling with Gantt visualization | 1–2 weeks |
-| 4 | `sql-engine-toy` | SQL parser, B-tree index, and a simple query planner | 3 weeks |
-| 5 | `p2p-file-sync` | Encrypted peer-to-peer file sync with chunk diffs and conflict resolution | 3 weeks |
+| 1 | `terminal-multiplexer` | tmux-like terminal multiplexer with sessions and splits | 2 weeks |
+| 2 | `os-scheduler-sim` | Round Robin, priority, and MLFQ scheduling with Gantt visualization | 1–2 weeks |
+| 3 | `sql-engine-toy` | SQL parser, B-tree index, and a simple query planner | 3 weeks |
+| 4 | `p2p-file-sync` | Encrypted peer-to-peer file sync with chunk diffs and conflict resolution | 3 weeks |
 
 ### ⚙️ Engineering principles
 
