@@ -93,6 +93,7 @@ zuro = {
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | ترميز Huffman + LZ77 مع قياس أداء مقابل gzip و zstd | الخوارزميات وهياكل البيانات تحت مقارنة أداء قابلة للقياس |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | وكيل DQN يلعب Geometry Dash عبر التقاط الشاشة والإدخال الافتراضي، مع حلقة بيئة مخصصة — CPU فقط | التعلم المعزز في بيئة لعب حقيقية |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | روبوت دردشة سطر أوامر مبني على سلاسل ماركوف و n-grams | معالجة اللغة الطبيعية الكلاسيكية قبل الأساليب العصبية |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | مزامنة ملفات P2P مشفرة مع Gear CDC chunking، ChaCha20-Poly1305، مصافحة TLS 1.3، SQLite manifest مع vector clocks — 95 اختبار، mypy strict | برمجة الأنظمة: CDC، التشفير، الشبكات، و SQLite internals |
 
 ## 🗺️ خارطة الطريق
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[مهندس ذكاء اصطناعي]
 
     B --- B1[🔜 مضاعف الطرفية]
-    C --- C2[🔜 مزامنة ملفات P2P]
 ```
 
 | الحالة | المشروع القادم | الهدف |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | بناء مضاعف طرفية مثل tmux مع الجلسات والتقسيم |
-| 🔜 | `p2p-file-sync` | بناء مزامنة ملفات P2P مشفرة مع فروق الكتل وحل التعارضات |
 
 ## ⚙️ مبادئ الهندسة
 
