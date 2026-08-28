@@ -93,6 +93,7 @@ Abgeschlossene Projekte. Jedes beginnt mit einer Architekturspezifikation, durch
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 Codec mit Benchmarks gegen gzip und zstd | Algorithmen und Datenstrukturen unter messbarem Leistungsvergleich |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-Agent der Geometry Dash via Screen Capture und virtuellem Input spielt, mit eigenem Environment-Loop — nur CPU | Reinforcement Learning in einer echten Spielumgebung |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Kommandozeilen-Chatbot auf Basis von Markov-Ketten und n-Grammen | Klassisches NLP vor neuronalen Ansätzen |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Verschlüsselter P2P File Sync mit Gear CDC Chunking, ChaCha20-Poly1305, TLS 1.3 Handshake, SQLite Manifest mit Vector Clocks — 95 Tests, mypy strict | Systemprogrammierung: CDC, Kryptographie, Netzwerke und SQLite-Internas |
 
 ## 🗺️ Roadmap
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[KI-Ingenieur]
 
     B --- B1[🔜 Terminal-Multiplexer]
-    C --- C2[🔜 P2P File Sync]
 ```
 
 | Status | Nächstes Projekt | Ziel |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | Einen tmux-ähnlichen Multiplexer mit Sessions und Splits bauen |
-| 🔜 | `p2p-file-sync` | Verschlüsselten P2P File Sync mit Chunk-Diffs und Konfliktlösung bauen |
 
 ## ⚙️ Engineering-Prinzipien
 
