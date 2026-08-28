@@ -93,6 +93,7 @@ zuro = {
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Кодек Huffman + LZ77 с бенчмарками против gzip и zstd | Алгоритмы и структуры данных под измеримым сравнением производительности |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-агент, играющий в Geometry Dash через захват экрана и виртуальный ввод, с собственной средой — только CPU | Обучение с подкреплением в реальной игровой среде |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Чат-бот для командной строки на цепях Маркова и n-граммах | Классический NLP до нейросетевых подходов |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Зашифрованная P2P-синхронизация файлов с Gear CDC чанкингом, ChaCha20-Poly1305, TLS 1.3 handshake, SQLite manifest с векторными часами — 95 тестов, mypy strict | Системное программирование: CDC, криптография, сети и внутреннее устройство SQLite |
 
 ## 🗺️ Roadmap
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[AI-инженер]
 
     B --- B1[🔜 Мультиплексор терминала]
-    C --- C2[🔜 P2P-синхронизация файлов]
 ```
 
 | Статус | Следующий проект | Цель |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | Создать мультиплексор наподобие tmux с сессиями и разделением экрана |
-| 🔜 | `p2p-file-sync` | Создать зашифрованную P2P-синхронизацию файлов с чанками и разрешением конфликтов |
 
 ## ⚙️ Инженерные принципы
 
