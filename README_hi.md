@@ -93,6 +93,7 @@ zuro = {
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 कोडेक, gzip और zstd के विरुद्ध बेंचमार्क | मापने योग्य प्रदर्शन तुलना के तहत एल्गोरिदम और डेटा स्ट्रक्चर्स |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | स्क्रीन कैप्चर और वर्चुअल इनपुट के माध्यम से Geometry Dash खेलने वाला DQN एजेंट, कस्टम एनवायरनमेंट लूप के साथ — केवल CPU | वास्तविक गेम वातावरण में रीइन्फोर्समेंट लर्निंग |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Markov chains और n-grams पर बना कमांड-लाइन चैटबॉट | न्यूरल दृष्टिकोणों से पहले का क्लासिकल NLP |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Gear CDC chunking, ChaCha20-Poly1305, TLS 1.3 handshake, vector clocks के साथ SQLite manifest द्वारा एन्क्रिप्टेड P2P फ़ाइल सिंक — 95 टेस्ट, mypy strict | सिस्टम्स प्रोग्रामिंग: CDC, क्रिप्टोग्राफी, नेटवर्किंग, और SQLite इंटर्नल्स |
 
 ## 🗺️ रोडमैप
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[AI इंजीनियर]
 
     B --- B1[🔜 टर्मिनल मल्टीप्लेक्सर]
-    C --- C2[🔜 P2P फ़ाइल सिंक]
 ```
 
 | स्थिति | अगला प्रोजेक्ट | लक्ष्य |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | सेशन्स और स्प्लिट्स के साथ tmux-जैसा मल्टीप्लेक्सर बनाना |
-| 🔜 | `p2p-file-sync` | चंक diffs और कॉन्फ्लिक्ट रेज़ोल्यूशन के साथ एन्क्रिप्टेड P2P फ़ाइल सिंक बनाना |
 
 ## ⚙️ इंजीनियरिंग सिद्धांत
 
