@@ -93,6 +93,7 @@ zuro = {
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 编解码器，与 gzip 和 zstd 对比基准测试 | 算法与数据结构在可量化性能对比下 |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | 通过屏幕捕获和虚拟输入游玩 Geometry Dash 的 DQN 智能体，含自定义环境循环 — 仅 CPU | 在真实游戏环境中的强化学习 |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | 基于马尔可夫链和 n-gram 的命令行聊天机器人 | 神经方法之前的经典 NLP |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | 基于 Gear CDC 分块、ChaCha20-Poly1305、TLS 1.3 握手、带向量时钟的 SQLite 清单的加密 P2P 文件同步 — 95 测试通过，mypy strict | 系统编程：CDC、加密学、网络和 SQLite 内部原理 |
 
 ## 🗺️ 路线图
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[AI 工程师]
 
     B --- B1[🔜 终端复用器]
-    C --- C2[🔜 P2P 文件同步]
 ```
 
 | 状态 | 下一个项目 | 目标 |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | 构建类似 tmux 的终端复用器，支持会话和分屏 |
-| 🔜 | `p2p-file-sync` | 构建带分块 diff 和冲突解决的加密 P2P 文件同步 |
 
 ## ⚙️ 工程原则
 
