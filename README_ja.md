@@ -93,6 +93,7 @@ AI はプロセス全体を通じて学習と構築のパートナーとして�
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 コーデック、gzip および zstd とベンチマーク比較 | 測定可能な性能比較の下でのアルゴリズムとデータ構造 |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | 画面キャプチャと仮想入力で Geometry Dash をプレイする DQN エージェント、カスタム環境ループ — CPU のみ | 実ゲーム環境での強化学習 |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | マルコフ連鎖と n-gram で構築されたコマンドライン チャットボット | ニューラルアプローチ以前の古典的 NLP |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Gear CDC チャンキング、ChaCha20-Poly1305、TLS 1.3 ハンドシェイク、ベクトルクロック付き SQLite マニフェストによる暗号化 P2P ファイル同期 — 95 テスト、mypy strict | システムプログラミング: CDC、暗号、ネットワーク、SQLite 内部 |
 
 ## 🗺️ ロードマップ
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[AI エンジニア]
 
     B --- B1[🔜 ターミナルマルチプレクサ]
-    C --- C2[🔜 P2P ファイル同期]
 ```
 
 | ステータス | 次のプロジェクト | 目標 |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | セッションと画面分割を備えた tmux 風マルチプレクサを構築 |
-| 🔜 | `p2p-file-sync` | チャンク差分と競合解決を備えた暗号化 P2P ファイル同期を構築 |
 
 ## ⚙️ エンジニアリング原則
 
