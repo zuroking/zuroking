@@ -93,6 +93,7 @@ Completed projects. Each one starts with an architecture specification, goes thr
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 codec benchmarked against gzip and zstd | Algorithms and data structures under measurable performance comparison |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent playing Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only | Reinforcement learning in a real game environment |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Command-line chatbot built on Markov chains and n-grams | Classical NLP before neural approaches |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Encrypted peer-to-peer file sync with Gear CDC chunking, ChaCha20-Poly1305, TLS 1.3 handshake, SQLite manifest with vector clocks — 95 tests, mypy strict | Systems programming: CDC, cryptography, networking, and SQLite internals |
 
 ## 🗺️ Roadmap
 
@@ -105,13 +106,11 @@ flowchart LR
     C --> D[AI Engineer]
 
     B --- B1[🔜 Terminal multiplexer]
-    C --- C2[🔜 P2P file sync]
 ```
 
 | Status | Next project | Goal |
 |---|---|---|
 | 🔜 | `terminal-multiplexer` | Build a tmux-like multiplexer with sessions and splits |
-| 🔜 | `p2p-file-sync` | Build encrypted peer-to-peer file sync with chunk diffs and conflict resolution |
 
 ## ⚙️ Engineering principles
 
