@@ -83,17 +83,18 @@ zuro = {
 | प्रोजेक्ट | मैंने क्या बनाया | इंजीनियरिंग फोकस |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **मेरा सबसे बड़ा प्रोजेक्ट:** 20 अलग-थलग Python प्रोजेक्ट्स वाला द्विभाषी लर्निंग रिपॉजिटरी, CLI कैलकुलेटर से लेकर CLI + SQLite + REST API कैपस्टोन तक। 655 पासिंग टेस्ट, स्पष्ट नोट्स के साथ कि कार्यान्वयन केवल शैक्षिक हैं | टेस्ट्स और स्पष्ट स्कोप सीमाओं के साथ बड़े लर्निंग कोडबेस की संरचना |
+| [**Tenebris**](TENEBRIS) | शुद्ध PyTorch में डेंस डिकोडर-ओनली ट्रांसफॉर्मर मॉडल (~14.59M पैरामीटर्स) और CPU ट्रेनिंग लूप — शून्य-निर्भरता बाइट टोकनाइज़र, memmap डेटासेट, कस्टम AdamW और Day-0 हार्डवेयर कैलिब्रेशन | बुनियादी सिद्धांतों से ट्रांसफॉर्मर प्रशिक्षण: अटेंशन, कस्टम AdamW, UTF-8 बाइट चंकिंग और CPU थर्मल कैलिब्रेशन |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-स्टाइल डिकोडर-ओनली लैंग्वेज मॉडल (~15.3M पैरामीटर्स), केवल CPU, शुद्ध PyTorch में लिखा — transformer इंटरनल्स को समझने के लिए स्क्रैच से बनाया | Transformer इंटरनल्स: attention, पोज़िशनल एन्कोडिंग और ट्रेनिंग लूप |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Gear CDC chunking, ChaCha20-Poly1305, TLS 1.3 handshake, vector clocks के साथ SQLite manifest द्वारा एन्क्रिप्टेड P2P फ़ाइल सिंक — 95 टेस्ट, mypy strict | सिस्टम्स प्रोग्रामिंग: CDC, क्रिप्टोग्राफी, नेटवर्किंग, और SQLite इंटर्नल्स |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | स्क्रीन कैप्चर और वर्चुअल इनपुट के माध्यम से Geometry Dash खेलने वाला DQN एजेंट, कस्टम एनवायरनमेंट लूप के साथ — केवल CPU | वास्तविक गेम वातावरण में रीइन्फोर्समेंट लर्निंग |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | शुद्ध NumPy में कस्टम वेक्टर डेटाबेस के साथ HNSW इंडेक्स — कोई FAISS नहीं, कोई hnswlib नहीं | अनुमानित निकटतम-पड़ोसी खोज और ग्राफ़-आधारित इंडेक्सिंग |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | शुद्ध NumPy में रिवर्स-मोड ऑटोमैटिक डिफरेंशिएशन इंजन — कोई PyTorch या TensorFlow नहीं | बैकप्रोपेगेशन और कंप्यूटेशन ग्राफ़ — हर ML फ्रेमवर्क का मूल |
-| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | मास्टर-पासवर्ड सुरक्षा और key derivation के साथ एन्क्रिप्टेड लोकल secrets CLI | एप्लाइड सुरक्षा: एन्क्रिप्शन, KDFs और secrets-हैंडलिंग हाइजीन |
 | [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL पार्सर, B-tree इंडेक्स और सरल क्वेरी प्लानर *(पूरा होने के बाद प्रोटोकॉल के अनुसार आर्काइव्ड)* | डेटाबेस इंटरनल्स: पार्सिंग, स्टोरेज स्ट्रक्चर्स, क्वेरी प्लानिंग |
-| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Round Robin, प्रायोरिटी शेड्यूलिंग और MLFQ को कवर करने वाला शेड्यूलर सिम्युलेटर, Gantt-चार्ट विज़ुअलाइज़ेशन के साथ | ऑपरेटिंग सिस्टम कॉन्सेप्ट्स: शेड्यूलिंग एल्गोरिदम और उनके ट्रेड-ऑफ़ |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | Raw sockets पर HTTP सर्वर: रिक्वेस्ट पार्सिंग, रूटिंग, keep-alive और बेसिक TLS | प्रोटोकॉल स्तर पर नेटवर्किंग की बुनियाद |
+| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | मास्टर-पासवर्ड सुरक्षा और key derivation के साथ एन्क्रिप्टेड लोकल secrets CLI | एप्लाइड सुरक्षा: एन्क्रिप्शन, KDFs और secrets-हैंडलिंग हाइजीन |
+| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Round Robin, प्रायोरिटी शेड्यूलिंग और MLFQ को कवर करने वाला शेड्यूलर सिम्युलेटर, Gantt-चार्ट विज़ुअलाइज़ेशन के साथ | ऑपरेटिंग सिस्टम कॉन्सेप्ट्स: शेड्यूलिंग एल्गोरिदम और उनके ट्रेड-ऑफ़ |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 कोडेक, gzip और zstd के विरुद्ध बेंचमार्क | मापने योग्य प्रदर्शन तुलना के तहत एल्गोरिदम और डेटा स्ट्रक्चर्स |
-| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | स्क्रीन कैप्चर और वर्चुअल इनपुट के माध्यम से Geometry Dash खेलने वाला DQN एजेंट, कस्टम एनवायरनमेंट लूप के साथ — केवल CPU | वास्तविक गेम वातावरण में रीइन्फोर्समेंट लर्निंग |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Markov chains और n-grams पर बना कमांड-लाइन चैटबॉट | न्यूरल दृष्टिकोणों से पहले का क्लासिकल NLP |
-| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Gear CDC chunking, ChaCha20-Poly1305, TLS 1.3 handshake, vector clocks के साथ SQLite manifest द्वारा एन्क्रिप्टेड P2P फ़ाइल सिंक — 95 टेस्ट, mypy strict | सिस्टम्स प्रोग्रामिंग: CDC, क्रिप्टोग्राफी, नेटवर्किंग, और SQLite इंटर्नल्स |
 
 ## 🗺️ रोडमैप
 
