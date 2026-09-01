@@ -83,17 +83,18 @@ Completed projects. Each one starts with an architecture specification, goes thr
 | Project | What I built | Engineering focus |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **My largest project:** a bilingual learning repository of 20 isolated Python projects, progressing from a CLI calculator to a CLI + SQLite + REST API capstone. 655 passing tests, with explicit notes marking implementations as educational-only | Structuring a large learning codebase with tests and clear scope boundaries |
+| [**Tenebris**](TENEBRIS) | Dense decoder-only transformer (~14.59M parameters) and CPU training loop in pure PyTorch — zero-dependency byte tokenizer, memmap dataset store, custom AdamW, and Day-0 hardware calibration | First-principles transformer training: attention, custom AdamW, UTF-8 byte chunking, and CPU thermal calibration |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-style decoder-only language model (~15.3M parameters), CPU-only, written in pure PyTorch — built from scratch to understand transformer internals | Transformer internals: attention, positional encoding, and the training loop |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Encrypted peer-to-peer file sync with Gear CDC chunking, ChaCha20-Poly1305, TLS 1.3 handshake, SQLite manifest with vector clocks — 95 tests, mypy strict | Systems programming: CDC, cryptography, networking, and SQLite internals |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent playing Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only | Reinforcement learning in a real game environment |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Custom vector database with an HNSW index in pure NumPy — no FAISS, no hnswlib | Approximate nearest-neighbour search and graph-based indexing |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Reverse-mode automatic differentiation engine in pure NumPy — no PyTorch or TensorFlow | Backpropagation and computational graphs — the core of every ML framework |
-| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with master-password protection and key derivation | Applied security: encryption, KDFs, and secret-handling hygiene |
 | [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL parser, B-tree index, and simple query planner *(archived by protocol after completion)* | Database internals: parsing, storage structures, query planning |
-| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Scheduler simulator covering Round Robin, priority scheduling, and MLFQ with Gantt-chart visualization | Operating-system concepts: scheduling algorithms and their trade-offs |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP server on raw sockets: request parsing, routing, keep-alive, and basic TLS | Networking fundamentals at the protocol level |
+| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Encrypted local secrets CLI with master-password protection and key derivation | Applied security: encryption, KDFs, and secret-handling hygiene |
+| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Scheduler simulator covering Round Robin, priority scheduling, and MLFQ with Gantt-chart visualization | Operating-system concepts: scheduling algorithms and their trade-offs |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 codec benchmarked against gzip and zstd | Algorithms and data structures under measurable performance comparison |
-| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN agent playing Geometry Dash via screen capture and virtual input, with a custom environment loop — CPU-only | Reinforcement learning in a real game environment |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Command-line chatbot built on Markov chains and n-grams | Classical NLP before neural approaches |
-| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Encrypted peer-to-peer file sync with Gear CDC chunking, ChaCha20-Poly1305, TLS 1.3 handshake, SQLite manifest with vector clocks — 95 tests, mypy strict | Systems programming: CDC, cryptography, networking, and SQLite internals |
 
 ## 🗺️ Roadmap
 
