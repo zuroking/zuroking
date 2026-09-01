@@ -83,17 +83,18 @@ zuro = {
 | المشروع | ماذا بنيت | التركيز الهندسي |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **أكبر مشاريعي:** مستودع تعليمي ثنائي اللغة يضم 20 مشروع Python منفصل، من آلة حاسبة CLI إلى مشروع ختامي بـ CLI + SQLite + REST API. 655 اختبار ناجح، مع ملاحظات صريحة بأن التطبيقات تعليمية فقط | هيكلة قاعدة كود تعليمية كبيرة مع اختبارات وحدود نطاق واضحة |
+| [**Tenebris**](TENEBRIS) | نموذج محول فك التشفير الكثيف (~14.59 مليون معامل) وحلقة تدريب على المعالج بلغة PyTorch الخالصة — مجزئ بايتات بدون مكتبات خارجية، تخزين memmap، ومحسن AdamW مخصص ومعايرة Day-0 | تدريب المحولات من المبادئ الأولى: الانتباه، وAdamW المخصص، وتقطيع UTF-8 بالبايت، والمعايرة الحرارية للمعالج |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | نموذج لغة فك تشفير فقط بأسلوب GPT (~15.3 مليون معلمة)، يعمل على CPU فقط، مكتوب بـ PyTorch الخالص — بُني من الصفر لفهم آليات المحولات | آليات المحولات: الانتباه والترميز الموضعي وحلقة التدريب |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | مزامنة ملفات P2P مشفرة مع Gear CDC chunking، ChaCha20-Poly1305، مصافحة TLS 1.3، SQLite manifest مع vector clocks — 95 اختبار، mypy strict | برمجة الأنظمة: CDC، التشفير، الشبكات، و SQLite internals |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | وكيل DQN يلعب Geometry Dash عبر التقاط الشاشة والإدخال الافتراضي، مع حلقة بيئة مخصصة — CPU فقط | التعلم المعزز في بيئة لعب حقيقية |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | قاعدة بيانات متجهات مخصصة بفهرس HNSW بـ NumPy الخالص — بدون FAISS أو hnswlib | البحث التقريبي عن أقرب الجيران والفهرسة القائمة على الرسوم البيانية |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | محرك تفاضل تلقائي عكسي بـ NumPy الخالص — بدون PyTorch أو TensorFlow | الانتشار العكسي والرسوم البيانية الحسابية — جوهر كل إطار عمل لتعلم الآلة |
-| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | أداة CLI محلية مشفرة للأسرار مع حماية بكلمة مرور رئيسية واشتقاق المفاتيح | الأمن التطبيقي: التشفير و KDFs ونظافة التعامل مع الأسرار |
 | [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | محلل SQL وفهرس B-tree ومخطط استعلامات بسيط *(مؤرشف حسب البروتوكول بعد الاكتمال)* | أساسيات قواعد البيانات: التحليل وهياكل التخزين وتخطيط الاستعلامات |
-| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | محاكي مجدول يغطي Round Robin والجدولة بالأولوية و MLFQ مع تصور بمخطط جانت | مفاهيم أنظمة التشغيل: خوارزميات الجدولة ومفاضلاتها |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | خادم HTTP على مقابس خام: تحليل الطلبات والتوجيه و keep-alive و TLS أساسي | أساسيات الشبكات على مستوى البروتوكول |
+| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | أداة CLI محلية مشفرة للأسرار مع حماية بكلمة مرور رئيسية واشتقاق المفاتيح | الأمن التطبيقي: التشفير و KDFs ونظافة التعامل مع الأسرار |
+| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | محاكي مجدول يغطي Round Robin والجدولة بالأولوية و MLFQ مع تصور بمخطط جانت | مفاهيم أنظمة التشغيل: خوارزميات الجدولة ومفاضلاتها |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | ترميز Huffman + LZ77 مع قياس أداء مقابل gzip و zstd | الخوارزميات وهياكل البيانات تحت مقارنة أداء قابلة للقياس |
-| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | وكيل DQN يلعب Geometry Dash عبر التقاط الشاشة والإدخال الافتراضي، مع حلقة بيئة مخصصة — CPU فقط | التعلم المعزز في بيئة لعب حقيقية |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | روبوت دردشة سطر أوامر مبني على سلاسل ماركوف و n-grams | معالجة اللغة الطبيعية الكلاسيكية قبل الأساليب العصبية |
-| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | مزامنة ملفات P2P مشفرة مع Gear CDC chunking، ChaCha20-Poly1305، مصافحة TLS 1.3، SQLite manifest مع vector clocks — 95 اختبار، mypy strict | برمجة الأنظمة: CDC، التشفير، الشبكات، و SQLite internals |
 
 ## 🗺️ خارطة الطريق
 
