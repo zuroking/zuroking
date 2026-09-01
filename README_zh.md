@@ -83,17 +83,18 @@ zuro = {
 | 项目 | 我构建了什么 | 工程重点 |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **我最大的项目：** 包含 20 个独立 Python 项目的双语学习仓库，从 CLI 计算器到 CLI + SQLite + REST API 的综合项目。655 项测试通过，并明确标注实现仅用于学习 | 大型学习代码库的结构化：测试与清晰的范围边界 |
+| [**Tenebris**](TENEBRIS) | 基于纯 PyTorch 的稠密仅解码器 Transformer 语言模型（约 14.59M 参数）及 CPU 训练循环 — 零依赖字节分词器、memmap 数据集存储、自定义 AdamW 及 Day-0 硬件校准 | 基于第一性原理的 Transformer 训练：自注意力机制、自定义 AdamW、UTF-8 字节分块与 CPU 散热校准 |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | 类 GPT 的仅解码器语言模型（约 1530 万参数）、仅 CPU、纯 PyTorch 编写 — 从零构建以理解 transformer 内部原理 | Transformer 内部：注意力机制、位置编码与训练循环 |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | 基于 Gear CDC 分块、ChaCha20-Poly1305、TLS 1.3 握手、带向量时钟的 SQLite 清单的加密 P2P 文件同步 — 95 测试通过，mypy strict | 系统编程：CDC、加密学、网络和 SQLite 内部原理 |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | 通过屏幕捕获和虚拟输入游玩 Geometry Dash 的 DQN 智能体，含自定义环境循环 — 仅 CPU | 在真实游戏环境中的强化学习 |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | 基于纯 NumPy 的自制向量数据库与 HNSW 索引 — 无 FAISS、无 hnswlib | 近似最近邻搜索与基于图的索引 |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | 基于纯 NumPy 的反向模式自动微分引擎 — 无 PyTorch 或 TensorFlow | 反向传播与计算图 — 每个 ML 框架的核心 |
-| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | 带主密码保护和密钥派生的加密本地 secrets CLI | 应用安全：加密、KDF 与 secrets 处理规范 |
 | [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL 解析器、B-tree 索引和简单查询规划器 *（完成后按流程归档）* | 数据库内部：解析、存储结构、查询规划 |
-| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | 涵盖 Round Robin、优先级调度和 MLFQ 的调度器模拟器，带甘特图可视化 | 操作系统概念：调度算法及其权衡 |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | 基于裸 sockets 的 HTTP 服务器：请求解析、路由、keep-alive 和基础 TLS | 协议层面的网络基础 |
+| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | 带主密码保护和密钥派生的加密本地 secrets CLI | 应用安全：加密、KDF 与 secrets 处理规范 |
+| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | 涵盖 Round Robin、优先级调度和 MLFQ 的调度器模拟器，带甘特图可视化 | 操作系统概念：调度算法及其权衡 |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 编解码器，与 gzip 和 zstd 对比基准测试 | 算法与数据结构在可量化性能对比下 |
-| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | 通过屏幕捕获和虚拟输入游玩 Geometry Dash 的 DQN 智能体，含自定义环境循环 — 仅 CPU | 在真实游戏环境中的强化学习 |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | 基于马尔可夫链和 n-gram 的命令行聊天机器人 | 神经方法之前的经典 NLP |
-| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | 基于 Gear CDC 分块、ChaCha20-Poly1305、TLS 1.3 握手、带向量时钟的 SQLite 清单的加密 P2P 文件同步 — 95 测试通过，mypy strict | 系统编程：CDC、加密学、网络和 SQLite 内部原理 |
 
 ## 🗺️ 路线图
 
