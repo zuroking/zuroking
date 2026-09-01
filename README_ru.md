@@ -83,17 +83,18 @@ zuro = {
 | Проект | Что я создал | Инженерный фокус |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **Мой самый большой проект:** двуязычный учебный репозиторий из 20 изолированных Python-проектов — от CLI-калькулятора до итогового проекта с CLI, SQLite и REST API. 655 проходящих тестов и явные пометки, что реализации учебные, не для production | Структурирование большого учебного кода: тесты и чёткие границы области применения |
+| [**Tenebris**](TENEBRIS) | Плотная декодерная языковая модель (~14.59 млн параметров) и цикл обучения на CPU на чистом PyTorch — байтовый токенизатор без зависимостей, memmap датасета, самописный AdamW и Day-0 калибровка | Обучение трансформера с первых принципов: attention, кастомный AdamW, UTF-8 чанкинг и термокалибровка CPU |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT-подобная декодерная языковая модель (~15,3 млн параметров), только CPU, на чистом PyTorch — создана с нуля для понимания устройства трансформеров | Устройство трансформеров: attention, позиционные кодировки и цикл обучения |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Зашифрованная P2P-синхронизация файлов с Gear CDC чанкингом, ChaCha20-Poly1305, TLS 1.3 handshake, SQLite manifest с векторными часами — 95 тестов, mypy strict | Системное программирование: CDC, криптография, сети и внутреннее устройство SQLite |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-агент, играющий в Geometry Dash через захват экрана и виртуальный ввод, с собственной средой — только CPU | Обучение с подкреплением в реальной игровой среде |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | Собственная векторная БД с HNSW-индексом на чистом NumPy — без FAISS и hnswlib | Приближённый поиск ближайших соседей и индексация на графах |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | Движок автоматического дифференцирования в обратном режиме на чистом NumPy — без PyTorch и TensorFlow | Backpropagation и графы вычислений — ядро любого ML-фреймворка |
-| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Зашифрованный локальный CLI-менеджер секретов с мастер-паролем и деривацией ключа | Прикладная безопасность: шифрование, KDF и гигиена работы с секретами |
 | [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL-парсер, B-дерево и простой планировщик запросов *(закрыт по протоколу после завершения)* | Внутреннее устройство СУБД: парсинг, структуры хранения, планирование запросов |
-| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Симулятор планировщиков: Round Robin, приоритетное планирование и MLFQ с диаграммами Ганта | Концепции операционных систем: алгоритмы планирования и их компромиссы |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | HTTP-сервер на raw sockets: парсинг запросов, роутинг, keep-alive и базовый TLS | Основы сетей на уровне протокола |
+| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | Зашифрованный локальный CLI-менеджер секретов с мастер-паролем и деривацией ключа | Прикладная безопасность: шифрование, KDF и гигиена работы с секретами |
+| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Симулятор планировщиков: Round Robin, приоритетное планирование и MLFQ с диаграммами Ганта | Концепции операционных систем: алгоритмы планирования и их компромиссы |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Кодек Huffman + LZ77 с бенчмарками против gzip и zstd | Алгоритмы и структуры данных под измеримым сравнением производительности |
-| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | DQN-агент, играющий в Geometry Dash через захват экрана и виртуальный ввод, с собственной средой — только CPU | Обучение с подкреплением в реальной игровой среде |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | Чат-бот для командной строки на цепях Маркова и n-граммах | Классический NLP до нейросетевых подходов |
-| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Зашифрованная P2P-синхронизация файлов с Gear CDC чанкингом, ChaCha20-Poly1305, TLS 1.3 handshake, SQLite manifest с векторными часами — 95 тестов, mypy strict | Системное программирование: CDC, криптография, сети и внутреннее устройство SQLite |
 
 ## 🗺️ Roadmap
 
