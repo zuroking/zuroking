@@ -83,17 +83,18 @@ AI はプロセス全体を通じて学習と構築のパートナーとして�
 | プロジェクト | 構築したもの | エンジニアリングの焦点 |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **最大のプロジェクト：** 20の独立した Python プロジェクトからなるバイリンガル学習リポジトリ。CLI 電卓から CLI + SQLite + REST API のキャップストーンまで。655件のテストがパスし、実装は教育目的であることを明記 | 大規模な学習コードベースの構造化：テストと明確なスコープ境界 |
+| [**Tenebris**](TENEBRIS) | 純粋な PyTorch による密なデコーダー専用 Transformer 言語モデル（約 14.59M パラメータ）と CPU 訓練ループ — 依存関係なしのバイトトークナイザー、memmap データセット、カスタム AdamW、Day-0 ハードウェアキャリブレーション | 第一原理からの Transformer 訓練：アテンション、独自 AdamW、UTF-8 バイトチャンキング、CPU 熱キャリブレーション |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | GPT スタイルのデコーダのみ言語モデル（約1,530万パラメータ）、CPU のみ、純粋な PyTorch で記述 — transformer の内部を理解するためにゼロから構築 | Transformer の内部：attention、位置エンコーディング、学習ループ |
+| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Gear CDC チャンキング、ChaCha20-Poly1305、TLS 1.3 ハンドシェイク、ベクトルクロック付き SQLite マニフェストによる暗号化 P2P ファイル同期 — 95 テスト、mypy strict | システムプログラミング: CDC、暗号、ネットワーク、SQLite 内部 |
+| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | 画面キャプチャと仮想入力で Geometry Dash をプレイする DQN エージェント、カスタム環境ループ — CPU のみ | 実ゲーム環境での強化学習 |
 | [**vector-db-from-scratch**](https://github.com/zuroking/vector-db-from-scratch) | 純粋な NumPy によるカスタムベクトルデータベースと HNSW インデックス — FAISS も hnswlib も不使用 | 近似最近傍探索とグラフベースのインデックス |
 | [**autograd-engine**](https://github.com/zuroking/autograd-engine) | 純粋な NumPy によるリバースモード自動微分エンジン — PyTorch や TensorFlow 不使用 | バックプロパゲーションと計算グラフ — あらゆる ML フレームワークの中核 |
-| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | マスターパスワード保護と鍵導出を備えた暗号化ローカル secrets CLI | 応用セキュリティ：暗号化、KDF、secrets 管理の衛生 |
 | [**sql-engine-toy**](https://github.com/zuroking/sql-engine-toy) | SQL パーサー、B-tree インデックス、シンプルなクエリプランナー *（完了後プロトコルに従いアーカイブ）* | データベース内部：パース、ストレージ構造、クエリ計画 |
-| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Round Robin、優先度スケジューリング、MLFQ をカバーするスケジューラシミュレータ、ガントチャート可視化付き | OS の概念：スケジューリングアルゴリズムとトレードオフ |
 | [**http-server-from-scratch**](https://github.com/zuroking/http-server-from-scratch) | 生ソケット上の HTTP サーバー：リクエスト解析、ルーティング、keep-alive、基本的な TLS | プロトコルレベルのネットワーキング基礎 |
+| [**secure-secrets-vault**](https://github.com/zuroking/secure-secrets-vault) | マスターパスワード保護と鍵導出を備えた暗号化ローカル secrets CLI | 応用セキュリティ：暗号化、KDF、secrets 管理の衛生 |
+| [**os-scheduler-sim**](https://github.com/zuroking/os-scheduler-sim) | Round Robin、優先度スケジューリング、MLFQ をカバーするスケジューラシミュレータ、ガントチャート可視化付き | OS の概念：スケジューリングアルゴリズムとトレードオフ |
 | [**compression-codec**](https://github.com/zuroking/compression-codec) | Huffman + LZ77 コーデック、gzip および zstd とベンチマーク比較 | 測定可能な性能比較の下でのアルゴリズムとデータ構造 |
-| [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | 画面キャプチャと仮想入力で Geometry Dash をプレイする DQN エージェント、カスタム環境ループ — CPU のみ | 実ゲーム環境での強化学習 |
 | [**markov-chatbot-cli**](https://github.com/zuroking/markov-chatbot-cli) | マルコフ連鎖と n-gram で構築されたコマンドライン チャットボット | ニューラルアプローチ以前の古典的 NLP |
-| [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Gear CDC チャンキング、ChaCha20-Poly1305、TLS 1.3 ハンドシェイク、ベクトルクロック付き SQLite マニフェストによる暗号化 P2P ファイル同期 — 95 テスト、mypy strict | システムプログラミング: CDC、暗号、ネットワーク、SQLite 内部 |
 
 ## 🗺️ ロードマップ
 
