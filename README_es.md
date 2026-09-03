@@ -111,7 +111,26 @@ flowchart LR
 
 | Estado | Próximo proyecto | Objetivo |
 |---|---|---|
-| 🔜 | `terminal-multiplexer` | Construir un multiplexor tipo tmux con sesiones y paneles divididos |
+| 🔜 | `mini-container-runtime` | Construir un runtime de contenedores Linux ligero usando namespaces, cgroups, overlay filesystems y aislamiento de procesos |
+| 🔜 | `git-from-scratch` | Reimplementar los internals de Git con objetos con dirección por contenido, árboles, commits, ramas, diff y packfiles |
+| 🔜 | `compiler-from-scratch` | Construir un lenguaje compilado con lexer, parser, verificador de tipos, optimizador, bytecode y backend de código nativo |
+| 🔜 | `mini-kubernetes` | Construir un sistema de orquestación de contenedores con scheduling, réplicas, health checks, descubrimiento de servicios y reconciliación |
+| 🔜 | `distributed-task-queue` | Crear una cola de trabajos tolerante a fallos con workers, reintentos, prioridades, trabajos diferidos, persistencia y recuperación |
+| 🔜 | `wasm-runtime` | Implementar un runtime mínimo de WebAssembly con validación de módulos, memoria lineal, importaciones y ejecución de bytecode |
+| 🔜 | `language-server-from-scratch` | Construir una implementación LSP para un lenguaje personalizado con autocompletado, diagnósticos, navegación por símbolos y formateo |
+| 🔜 | `terminal-browser` | Crear un navegador web en terminal con HTTP, análisis HTML, hipervínculos, caché, formularios y renderizado básico |
+| 🔜 | `object-storage` | Construir un servidor de almacenamiento de objetos tipo S3 con buckets, metadatos, subidas multiparte, checksums y replicación |
+| 🔜 | `distributed-cache` | Construir una caché distribuida inspirada en Redis con sharding, replicación, TTL, políticas de desalojo y consistent hashing |
+| 🔜 | `raft-consensus` | Implementar el algoritmo de consenso Raft con elección de líder, logs replicados, persistencia e inyección de fallos |
+| 🔜 | `message-broker-from-scratch` | Construir un broker de mensajes inspirado en Kafka con particiones, grupos de consumidores, offsets, retención y replicación de logs |
+| 🔜 | `mini-vm` | Construir una máquina virtual con su propio conjunto de instrucciones, modelo pila/registro, gestor de memoria, depurador y ensamblador |
+| 🔜 | `filesystem-from-scratch` | Implementar un sistema de archivos en espacio de usuario con inodos, directorios, asignación de bloques, journaling, caché y recuperación de fallos |
+| 🔜 | `network-stack-from-scratch` | Implementar mecanismos TCP/IP en espacio de usuario: tramas Ethernet, ARP, IPv4, ICMP, estado TCP y enrutamiento |
+| 🔜 | `model-serving-runtime` | Construir un servidor de inferencia con batching dinámico, streaming, scheduling de peticiones, caché y optimización para CPU |
+| 🔜 | `llm-inference-engine` | Crear un motor de inferencia ligero para transformers con KV-cache, pesos cuantizados, streaming de tokens y ejecución con memoria optimizada |
+| 🔜 | `observability-platform` | Construir un stack de observabilidad pequeño para logs, métricas, trazas, eventos estructurados y un dashboard de terminal/Web |
+| 🔜 | `cdc-backup-engine` | Construir un sistema de backup incremental usando chunking definido por contenido, deduplicación, manifiestos, snapshots, compresión y restauración |
+| 🔜 | `distributed-database` | Construir una pequeña base de datos distribuida combinando motor de almacenamiento, WAL, replicación, consenso, índices y una capa de consulta tipo SQL |
 
 ## ⚙️ Principios de ingeniería
 
