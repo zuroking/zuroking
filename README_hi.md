@@ -111,7 +111,26 @@ flowchart LR
 
 | स्थिति | अगला प्रोजेक्ट | लक्ष्य |
 |---|---|---|
-| 🔜 | `terminal-multiplexer` | सेशन्स और स्प्लिट्स के साथ tmux-जैसा मल्टीप्लेक्सर बनाना |
+| 🔜 | `mini-container-runtime` | namespaces, cgroups, overlay filesystems और process isolation का उपयोग करके एक हल्का Linux container runtime बनाना |
+| 🔜 | `git-from-scratch` | content-addressed objects, trees, commits, branches, diff और packfiles के साथ Git internals को फिर से लागू करना |
+| 🔜 | `compiler-from-scratch` | lexer, parser, type checker, optimizer, bytecode और native-code backend के साथ एक compiled programming language बनाना |
+| 🔜 | `mini-kubernetes` | scheduling, replicas, health checks, service discovery और reconciliation के साथ container orchestration system बनाना |
+| 🔜 | `distributed-task-queue` | workers, retries, priorities, delayed jobs, persistence और recovery के साथ fault-tolerant job queue बनाना |
+| 🔜 | `wasm-runtime` | module validation, linear memory, imports और bytecode execution के साथ minimal WebAssembly runtime लागू करना |
+| 🔜 | `language-server-from-scratch` | autocomplete, diagnostics, symbol navigation और formatting के साथ custom language के लिए LSP implementation बनाना |
+| 🔜 | `terminal-browser` | HTTP, HTML parsing, hyperlinks, caching, forms और basic rendering के साथ terminal web browser बनाना |
+| 🔜 | `object-storage` | buckets, metadata, multipart uploads, checksums और replication के साथ S3-जैसा object storage server बनाना |
+| 🔜 | `distributed-cache` | sharding, replication, TTL, eviction policies और consistent hashing के साथ Redis-inspired distributed cache बनाना |
+| 🔜 | `raft-consensus` | leader election, replicated logs, persistence और fault injection के साथ Raft consensus algorithm लागू करना |
+| 🔜 | `message-broker-from-scratch` | partitions, consumer groups, offsets, retention और log replication के साथ Kafka-inspired message broker बनाना |
+| 🔜 | `mini-vm` | अपने bytecode instruction set, stack/register model, memory manager, debugger और assembler के साथ virtual machine बनाना |
+| 🔜 | `filesystem-from-scratch` | inodes, directories, block allocation, journaling, caching और crash recovery के साथ userspace filesystem लागू करना |
+| 🔜 | `network-stack-from-scratch` | user space में core TCP/IP mechanisms लागू करना: Ethernet-style framing, ARP, IPv4, ICMP, TCP state और routing |
+| 🔜 | `model-serving-runtime` | dynamic batching, streaming, request scheduling, caching और CPU optimization के साथ production-style inference server बनाना |
+| 🔜 | `llm-inference-engine` | KV-cache, quantized weights, token streaming और memory-aware execution के साथ lightweight transformer inference engine बनाना |
+| 🔜 | `observability-platform` | logs, metrics, traces, structured events और terminal/Web dashboard के लिए small observability stack बनाना |
+| 🔜 | `cdc-backup-engine` | content-defined chunking, deduplication, manifests, snapshots, compression और restore का उपयोग करके incremental backup system बनाना |
+| 🔜 | `distributed-database` | storage engine, WAL, replication, consensus, indexes और SQL-like query layer को मिलाकर छोटा distributed database बनाना |
 
 ## ⚙️ इंजीनियरिंग सिद्धांत
 
