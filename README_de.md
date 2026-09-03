@@ -111,7 +111,26 @@ flowchart LR
 
 | Status | Nächstes Projekt | Ziel |
 |---|---|---|
-| 🔜 | `terminal-multiplexer` | Einen tmux-ähnlichen Multiplexer mit Sessions und Splits bauen |
+| 🔜 | `mini-container-runtime` | Einen leichtgewichtigen Linux-Container-Runtime mit Namespaces, Cgroups, Overlay-Filesystems und Prozess-Isolation bauen |
+| 🔜 | `git-from-scratch` | Git-Interna reimplementieren mit inhaltsadressierten Objekten, Bäumen, Commits, Branches, Diff und Packfiles |
+| 🔜 | `compiler-from-scratch` | Eine kompilierte Programmiersprache mit Lexer, Parser, Type-Checker, Optimierer, Bytecode und nativem Code-Backend bauen |
+| 🔜 | `mini-kubernetes` | Ein Container-Orchestrierungssystem mit Scheduling, Replikas, Health-Checks, Service-Discovery und Reconciliation bauen |
+| 🔜 | `distributed-task-queue` | Eine fehlertolerante Job-Queue mit Workers, Retries, Prioritäten, verzögerten Jobs, Persistenz und Recovery erstellen |
+| 🔜 | `wasm-runtime` | Einen minimalen WebAssembly-Runtime mit Modulvalidierung, linearem Speicher, Imports und Bytecode-Ausführung implementieren |
+| 🔜 | `language-server-from-scratch` | Eine LSP-Implementierung für eine eigene Sprache mit Autovervollständigung, Diagnosen, Symbol-Navigation und Formatierung bauen |
+| 🔜 | `terminal-browser` | Einen Terminal-Webbrowser mit HTTP, HTML-Parsing, Hyperlinks, Caching, Formularen und einfachem Rendering erstellen |
+| 🔜 | `object-storage` | Einen S3-ähnlichen Objekt-Storage-Server mit Buckets, Metadaten, Multipart-Uploads, Checksums und Replikation bauen |
+| 🔜 | `distributed-cache` | Einen Redis-inspirierten verteilten Cache mit Sharding, Replikation, TTL, Eviction-Policies und Consistent Hashing bauen |
+| 🔜 | `raft-consensus` | Den Raft-Konsensalgorithmus mit Leader-Wahl, replizierten Logs, Persistenz und Fehlerinjektion implementieren |
+| 🔜 | `message-broker-from-scratch` | Einen Kafka-inspirierten Message-Broker mit Partitionen, Consumer-Gruppen, Offsets, Retention und Log-Replikation bauen |
+| 🔜 | `mini-vm` | Eine virtuelle Maschine mit eigenem Bytecode-Befehlssatz, Stack-/Register-Modell, Speichermanager, Debugger und Assembler bauen |
+| 🔜 | `filesystem-from-scratch` | Ein Userspace-Dateisystem mit Inodes, Verzeichnissen, Block-Allokation, Journaling, Caching und Crash-Recovery implementieren |
+| 🔜 | `network-stack-from-scratch` | Kern-TCP/IP-Mechanismen im User-Space implementieren: Ethernet-Framing, ARP, IPv4, ICMP, TCP-Zustand und Routing |
+| 🔜 | `model-serving-runtime` | Einen produktionstauglichen Inferenz-Server mit Dynamic Batching, Streaming, Request-Scheduling, Caching und CPU-Optimierung bauen |
+| 🔜 | `llm-inference-engine` | Eine leichtgewichtige Transformer-Inferenz-Engine mit KV-Cache, quantisierten Gewichten, Token-Streaming und speicherbewusster Ausführung erstellen |
+| 🔜 | `observability-platform` | Einen kleinen Observability-Stack für Logs, Metriken, Traces, strukturierte Events und ein Terminal/Web-Dashboard bauen |
+| 🔜 | `cdc-backup-engine` | Ein inkrementelles Backup-System mit Content-Defined Chunking, Deduplizierung, Manifesten, Snapshots, Kompression und Wiederherstellung bauen |
+| 🔜 | `distributed-database` | Eine kleine verteilte Datenbank kombinierend aus Storage-Engine, WAL, Replikation, Konsensus, Indizes und einer SQL-ähnlichen Abfrageschicht bauen |
 
 ## ⚙️ Engineering-Prinzipien
 
