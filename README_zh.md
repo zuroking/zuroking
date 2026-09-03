@@ -111,7 +111,26 @@ flowchart LR
 
 | 状态 | 下一个项目 | 目标 |
 |---|---|---|
-| 🔜 | `terminal-multiplexer` | 构建类似 tmux 的终端复用器，支持会话和分屏 |
+| 🔜 | `mini-container-runtime` | 使用 namespaces、cgroups、overlay 文件系统和进程隔离构建轻量级 Linux 容器运行时 |
+| 🔜 | `git-from-scratch` | 重新实现 Git 内部机制：内容寻址对象、树、提交、分支、diff 和 packfiles |
+| 🔜 | `compiler-from-scratch` | 构建带有词法分析器、解析器、类型检查器、优化器、字节码和原生代码后端的编译型编程语言 |
+| 🔜 | `mini-kubernetes` | 构建容器编排系统：调度、副本、健康检查、服务发现和协调 |
+| 🔜 | `distributed-task-queue` | 创建容错任务队列：工作节点、重试、优先级、延迟任务、持久化和恢复 |
+| 🔜 | `wasm-runtime` | 实现最小化 WebAssembly 运行时：模块验证、线性内存、导入和字节码执行 |
+| 🔜 | `language-server-from-scratch` | 为自定义语言构建 LSP 实现：自动补全、诊断、符号导航和格式化 |
+| 🔜 | `terminal-browser` | 创建终端 Web 浏览器：HTTP、HTML 解析、超链接、缓存、表单和基础渲染 |
+| 🔜 | `object-storage` | 构建类 S3 对象存储服务器：桶、元数据、分片上传、校验和与复制 |
+| 🔜 | `distributed-cache` | 构建受 Redis 启发的分布式缓存：分片、复制、TTL、淘汰策略和一致性哈希 |
+| 🔜 | `raft-consensus` | 实现 Raft 共识算法：领导者选举、复制日志、持久化和故障注入 |
+| 🔜 | `message-broker-from-scratch` | 构建受 Kafka 启发的消息代理：分区、消费者组、偏移量、保留策略和日志复制 |
+| 🔜 | `mini-vm` | 构建带有自定义字节码指令集、栈/寄存器模型、内存管理器、调试器和汇编器的虚拟机 |
+| 🔜 | `filesystem-from-scratch` | 实现用户空间文件系统：inode、目录、块分配、日志、缓存和崩溃恢复 |
+| 🔜 | `network-stack-from-scratch` | 在用户空间实现核心 TCP/IP 机制：以太网帧、ARP、IPv4、ICMP、TCP 状态和路由 |
+| 🔜 | `model-serving-runtime` | 构建生产级推理服务器：动态批处理、流式传输、请求调度、缓存和 CPU 优化 |
+| 🔜 | `llm-inference-engine` | 创建轻量级 Transformer 推理引擎：KV 缓存、量化权重、Token 流式传输和内存感知执行 |
+| 🔜 | `observability-platform` | 构建小型可观测性栈：日志、指标、链路追踪、结构化事件和终端/Web 仪表板 |
+| 🔜 | `cdc-backup-engine` | 构建使用内容定义分块、去重、清单、快照、压缩和恢复的增量备份系统 |
+| 🔜 | `distributed-database` | 构建结合存储引擎、WAL、复制、共识、索引和类 SQL 查询层的小型分布式数据库 |
 
 ## ⚙️ 工程原则
 
