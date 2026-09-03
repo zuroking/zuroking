@@ -109,9 +109,29 @@ flowchart LR
     B --- B1[🔜 Terminal multiplexer]
 ```
 
-| Status | Next project | Goal |
-|---|---|---|
-| 🔜 | `terminal-multiplexer` | Build a tmux-like multiplexer with sessions and splits |
+| Status | Next project                   | Goal                                                                                                                             |
+| ------ | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| 🔜     | `mini-container-runtime`       | Build a lightweight Linux container runtime using namespaces, cgroups, overlay filesystems, and process isolation                |
+| 🔜     | `git-from-scratch`             | Reimplement Git internals with content-addressed objects, trees, commits, branches, diff, and packfiles                          |
+| 🔜     | `compiler-from-scratch`        | Build a compiled programming language with lexer, parser, type checker, optimizer, bytecode, and native-code backend             |
+| 🔜     | `mini-kubernetes`              | Build a container orchestration system with scheduling, replicas, health checks, service discovery, and reconciliation           |
+| 🔜     | `distributed-task-queue`       | Create a fault-tolerant job queue with workers, retries, priorities, delayed jobs, persistence, and recovery                     |
+| 🔜     | `wasm-runtime`                 | Implement a minimal WebAssembly runtime with module validation, linear memory, imports, and bytecode execution                   |
+| 🔜     | `language-server-from-scratch` | Build an LSP implementation for a custom language with autocomplete, diagnostics, symbol navigation, and formatting              |
+| 🔜     | `terminal-browser`             | Create a terminal web browser with HTTP, HTML parsing, hyperlinks, caching, forms, and basic rendering                           |
+| 🔜     | `object-storage`               | Build an S3-like object storage server with buckets, metadata, multipart uploads, checksums, and replication                     |
+| 🔜     | `distributed-cache`            | Build a Redis-inspired distributed cache with sharding, replication, TTL, eviction policies, and consistent hashing              |
+| 🔜     | `raft-consensus`               | Implement the Raft consensus algorithm with leader election, replicated logs, persistence, and fault injection                   |
+| 🔜     | `message-broker-from-scratch`  | Build a Kafka-inspired message broker with partitions, consumer groups, offsets, retention, and log replication                  |
+| 🔜     | `mini-vm`                      | Build a virtual machine with its own bytecode instruction set, stack/register model, memory manager, debugger, and assembler     |
+| 🔜     | `filesystem-from-scratch`      | Implement a userspace filesystem with inodes, directories, block allocation, journaling, caching, and crash recovery             |
+| 🔜     | `network-stack-from-scratch`   | Implement core TCP/IP mechanisms in user space including Ethernet-style framing, ARP, IPv4, ICMP, TCP state, and routing         |
+| 🔜     | `model-serving-runtime`        | Build a production-style inference server with dynamic batching, streaming, request scheduling, caching, and CPU optimization    |
+| 🔜     | `llm-inference-engine`         | Create a lightweight transformer inference engine with KV-cache, quantized weights, token streaming, and memory-aware execution  |
+| 🔜     | `observability-platform`       | Build a small observability stack for logs, metrics, traces, structured events, and a terminal/Web dashboard                     |
+| 🔜     | `cdc-backup-engine`            | Build an incremental backup system using content-defined chunking, deduplication, manifests, snapshots, compression, and restore |
+| 🔜     | `distributed-database`         | Build a small distributed database combining a storage engine, WAL, replication, consensus, indexes, and a SQL-like query layer  |
+
 
 ## ⚙️ Engineering principles
 
