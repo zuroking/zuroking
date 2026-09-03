@@ -83,7 +83,7 @@ Projets terminés. Chacun commence par une spécification d'architecture, passe 
 | Projet | Ce que j'ai construit | Focus d'ingénierie |
 |---|---|---|
 | [**basicthon**](https://github.com/zuroking/basicthon) | **Mon plus grand projet :** dépôt d'apprentissage bilingue de 20 projets Python isolés, d'une calculatrice CLI à un projet final CLI + SQLite + REST API. 655 tests réussis, avec des notes explicites indiquant que les implémentations sont uniquement pédagogiques | Structuration d'une grande base de code d'apprentissage avec des tests et des limites de périmètre claires |
-| [**Tenebris**](https://github.com/zuroking/Tenebris) | Modèle transformeur décodeur dense (~14,59M de paramètres) et boucle d'entraînement CPU en PyTorch pur — tokenizer au niveau des octets sans dépendance, stockage memmap, AdamW personnalisé et calibration Day-0 | Entraînement de transformeur par premiers principes : attention, AdamW personnalisé, découpage UTF-8 et calibration thermique CPU |
+| [**Tenebris**](TENEBRIS) | Modèle transformeur décodeur dense (~14,59M de paramètres) et boucle d'entraînement CPU en PyTorch pur — tokenizer au niveau des octets sans dépendance, stockage memmap, AdamW personnalisé et calibration Day-0 | Entraînement de transformeur par premiers principes : attention, AdamW personnalisé, découpage UTF-8 et calibration thermique CPU |
 | [**kronos-synapse-dialog-core**](https://github.com/zuroking/ZURO_AI) | Modèle de langage de type GPT décodeur seul (~15,3M de paramètres), CPU uniquement, écrit en PyTorch pur — construit from scratch pour comprendre les entrailles des transformers | Rouages des transformers : attention, encodage positionnel et boucle d'entraînement |
 | [**p2p-file-sync**](https://github.com/zuroking/p2p-file-sync) | Synchronisation de fichiers P2P chiffrée avec chunking Gear CDC, ChaCha20-Poly1305, handshake TLS 1.3, manifest SQLite avec horloges vectorielles — 95 tests, mypy strict | Programmation systèmes : CDC, cryptographie, réseaux et internals SQLite |
 | [**geometry_dash_RL_agent**](https://github.com/zuroking/GD_RL_Agent) | Agent DQN jouant à Geometry Dash via capture d'écran et entrée virtuelle, avec une boucle d'environnement sur mesure — CPU uniquement | Apprentissage par renforcement dans un vrai environnement de jeu |
@@ -111,7 +111,26 @@ flowchart LR
 
 | Statut | Prochain projet | Objectif |
 |---|---|---|
-| 🔜 | `terminal-multiplexer` | Construire un multiplexeur type tmux avec sessions et splits |
+| 🔜 | `mini-container-runtime` | Construire un runtime de conteneurs Linux léger utilisant namespaces, cgroups, overlay filesystems et isolation des processus |
+| 🔜 | `git-from-scratch` | Réimplémenter les mécanismes internes de Git avec des objets adressés par contenu, arborescences, commits, branches, diff et packfiles |
+| 🔜 | `compiler-from-scratch` | Construire un langage compilé avec lexer, parser, vérificateur de types, optimiseur, bytecode et backend de code natif |
+| 🔜 | `mini-kubernetes` | Construire un système d'orchestration de conteneurs avec scheduling, réplicas, health checks, découverte de services et réconciliation |
+| 🔜 | `distributed-task-queue` | Créer une file de tâches tolérante aux pannes avec workers, tentatives, priorités, tâches différées, persistance et reprise |
+| 🔜 | `wasm-runtime` | Implémenter un runtime WebAssembly minimal avec validation de modules, mémoire linéaire, imports et exécution de bytecode |
+| 🔜 | `language-server-from-scratch` | Construire une implémentation LSP pour un langage personnalisé avec autocomplétion, diagnostics, navigation par symboles et formatage |
+| 🔜 | `terminal-browser` | Créer un navigateur web en terminal avec HTTP, parsing HTML, hyperliens, mise en cache, formulaires et rendu basique |
+| 🔜 | `object-storage` | Construire un serveur de stockage d'objets type S3 avec buckets, métadonnées, uploads multipart, checksums et réplication |
+| 🔜 | `distributed-cache` | Construire un cache distribué inspiré de Redis avec sharding, réplication, TTL, politiques d'éviction et hachage cohérent |
+| 🔜 | `raft-consensus` | Implémenter l'algorithme de consensus Raft avec élection de leader, logs répliqués, persistance et injection de pannes |
+| 🔜 | `message-broker-from-scratch` | Construire un broker de messages inspiré de Kafka avec partitions, groupes de consommateurs, offsets, rétention et réplication de logs |
+| 🔜 | `mini-vm` | Construire une machine virtuelle avec son propre jeu d'instructions bytecode, modèle pile/registre, gestionnaire de mémoire, débogueur et assembleur |
+| 🔜 | `filesystem-from-scratch` | Implémenter un système de fichiers en espace utilisateur avec inodes, répertoires, allocation de blocs, journalisation, mise en cache et reprise après crash |
+| 🔜 | `network-stack-from-scratch` | Implémenter les mécanismes TCP/IP en espace utilisateur : tramage Ethernet, ARP, IPv4, ICMP, état TCP et routage |
+| 🔜 | `model-serving-runtime` | Construire un serveur d'inférence de style production avec batching dynamique, streaming, scheduling des requêtes, mise en cache et optimisation CPU |
+| 🔜 | `llm-inference-engine` | Créer un moteur d'inférence de transformer léger avec KV-cache, poids quantifiés, streaming de tokens et exécution consciente de la mémoire |
+| 🔜 | `observability-platform` | Construire un petit stack d'observabilité pour logs, métriques, traces, événements structurés et un tableau de bord terminal/Web |
+| 🔜 | `cdc-backup-engine` | Construire un système de sauvegarde incrémentale utilisant le chunking par contenu, déduplication, manifestes, snapshots, compression et restauration |
+| 🔜 | `distributed-database` | Construire une petite base de données distribuée combinant un moteur de stockage, WAL, réplication, consensus, index et une couche de requête type SQL |
 
 ## ⚙️ Principes d'ingénierie
 
